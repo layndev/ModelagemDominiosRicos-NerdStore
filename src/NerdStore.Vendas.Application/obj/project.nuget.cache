@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "QnJaCWNIuP3xVxJ48+sZuEs9LxIZO+kDn5M8iIVd6EZMDboSmc8ibfUj1SnZs+i0C7oSyh8HjAl6UepDYsPndw==",
+  "success": true,
+  "projectFilePath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Vendas.Application/NerdStore.Vendas.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/macbookair/.nuget/packages/fluentvalidation/10.3.6/fluentvalidation.10.3.6.nupkg.sha512",
+    "/Users/macbookair/.nuget/packages/mediatr/10.0.1/mediatr.10.0.1.nupkg.sha512",
+    "/Users/macbookair/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

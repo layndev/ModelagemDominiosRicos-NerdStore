@@ -1,0 +1,828 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.WebApp.MVC/NerdStore.WebApp.MVC.csproj": {}
+  },
+  "projects": {
+    "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/EventSourcing/EventSourcing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/EventSourcing/EventSourcing.csproj",
+        "projectName": "EventSourcing",
+        "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/EventSourcing/EventSourcing.csproj",
+        "packagesPath": "/Users/macbookair/.nuget/packages/",
+        "outputPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/EventSourcing/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macbookair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Core/NerdStore.Core.csproj": {
+                "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Core/NerdStore.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EventStore.Client": {
+              "target": "Package",
+              "version": "[21.2.1, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Catalogo.Application/NerdStore.Catalogo.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Catalogo.Application/NerdStore.Catalogo.Application.csproj",
+        "projectName": "NerdStore.Catalogo.Application",
+        "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Catalogo.Application/NerdStore.Catalogo.Application.csproj",
+        "packagesPath": "/Users/macbookair/.nuget/packages/",
+        "outputPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Catalogo.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macbookair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Catalogo.Data/NerdStore.Catalogo.Data.csproj": {
+                "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Catalogo.Data/NerdStore.Catalogo.Data.csproj"
+              },
+              "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Catalogo.Domain/NerdStore.Catalogo.Domain.csproj": {
+                "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Catalogo.Domain/NerdStore.Catalogo.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Catalogo.Data/NerdStore.Catalogo.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Catalogo.Data/NerdStore.Catalogo.Data.csproj",
+        "projectName": "NerdStore.Catalogo.Data",
+        "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Catalogo.Data/NerdStore.Catalogo.Data.csproj",
+        "packagesPath": "/Users/macbookair/.nuget/packages/",
+        "outputPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Catalogo.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macbookair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Catalogo.Domain/NerdStore.Catalogo.Domain.csproj": {
+                "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Catalogo.Domain/NerdStore.Catalogo.Domain.csproj"
+              },
+              "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Core/NerdStore.Core.csproj": {
+                "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Core/NerdStore.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Catalogo.Domain/NerdStore.Catalogo.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Catalogo.Domain/NerdStore.Catalogo.Domain.csproj",
+        "projectName": "NerdStore.Catalogo.Domain",
+        "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Catalogo.Domain/NerdStore.Catalogo.Domain.csproj",
+        "packagesPath": "/Users/macbookair/.nuget/packages/",
+        "outputPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Catalogo.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macbookair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Core/NerdStore.Core.csproj": {
+                "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Core/NerdStore.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Core/NerdStore.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Core/NerdStore.Core.csproj",
+        "projectName": "NerdStore.Core",
+        "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Core/NerdStore.Core.csproj",
+        "packagesPath": "/Users/macbookair/.nuget/packages/",
+        "outputPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macbookair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Pagamentos.AntiCorruption/NerdStore.Pagamentos.AntiCorruption.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Pagamentos.AntiCorruption/NerdStore.Pagamentos.AntiCorruption.csproj",
+        "projectName": "NerdStore.Pagamentos.AntiCorruption",
+        "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Pagamentos.AntiCorruption/NerdStore.Pagamentos.AntiCorruption.csproj",
+        "packagesPath": "/Users/macbookair/.nuget/packages/",
+        "outputPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Pagamentos.AntiCorruption/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macbookair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Pagamentos.Business/NerdStore.Pagamentos.Business.csproj": {
+                "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Pagamentos.Business/NerdStore.Pagamentos.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Pagamentos.Business/NerdStore.Pagamentos.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Pagamentos.Business/NerdStore.Pagamentos.Business.csproj",
+        "projectName": "NerdStore.Pagamentos.Business",
+        "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Pagamentos.Business/NerdStore.Pagamentos.Business.csproj",
+        "packagesPath": "/Users/macbookair/.nuget/packages/",
+        "outputPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Pagamentos.Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macbookair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Core/NerdStore.Core.csproj": {
+                "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Core/NerdStore.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Pagamentos.Data/NerdStore.Pagamentos.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Pagamentos.Data/NerdStore.Pagamentos.Data.csproj",
+        "projectName": "NerdStore.Pagamentos.Data",
+        "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Pagamentos.Data/NerdStore.Pagamentos.Data.csproj",
+        "packagesPath": "/Users/macbookair/.nuget/packages/",
+        "outputPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Pagamentos.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macbookair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Core/NerdStore.Core.csproj": {
+                "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Core/NerdStore.Core.csproj"
+              },
+              "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Pagamentos.Business/NerdStore.Pagamentos.Business.csproj": {
+                "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Pagamentos.Business/NerdStore.Pagamentos.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Vendas.Application/NerdStore.Vendas.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Vendas.Application/NerdStore.Vendas.Application.csproj",
+        "projectName": "NerdStore.Vendas.Application",
+        "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Vendas.Application/NerdStore.Vendas.Application.csproj",
+        "packagesPath": "/Users/macbookair/.nuget/packages/",
+        "outputPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Vendas.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macbookair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Core/NerdStore.Core.csproj": {
+                "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Core/NerdStore.Core.csproj"
+              },
+              "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Vendas.Domain/NerdStore.Vendas.Domain.csproj": {
+                "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Vendas.Domain/NerdStore.Vendas.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Vendas.Data/NerdStore.Vendas.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Vendas.Data/NerdStore.Vendas.Data.csproj",
+        "projectName": "NerdStore.Vendas.Data",
+        "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Vendas.Data/NerdStore.Vendas.Data.csproj",
+        "packagesPath": "/Users/macbookair/.nuget/packages/",
+        "outputPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Vendas.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macbookair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Core/NerdStore.Core.csproj": {
+                "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Core/NerdStore.Core.csproj"
+              },
+              "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Vendas.Domain/NerdStore.Vendas.Domain.csproj": {
+                "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Vendas.Domain/NerdStore.Vendas.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Vendas.Domain/NerdStore.Vendas.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Vendas.Domain/NerdStore.Vendas.Domain.csproj",
+        "projectName": "NerdStore.Vendas.Domain",
+        "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Vendas.Domain/NerdStore.Vendas.Domain.csproj",
+        "packagesPath": "/Users/macbookair/.nuget/packages/",
+        "outputPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Vendas.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macbookair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Core/NerdStore.Core.csproj": {
+                "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Core/NerdStore.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.WebApp.MVC/NerdStore.WebApp.MVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.WebApp.MVC/NerdStore.WebApp.MVC.csproj",
+        "projectName": "NerdStore.WebApp.MVC",
+        "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.WebApp.MVC/NerdStore.WebApp.MVC.csproj",
+        "packagesPath": "/Users/macbookair/.nuget/packages/",
+        "outputPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.WebApp.MVC/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macbookair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/EventSourcing/EventSourcing.csproj": {
+                "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/EventSourcing/EventSourcing.csproj"
+              },
+              "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Catalogo.Application/NerdStore.Catalogo.Application.csproj": {
+                "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Catalogo.Application/NerdStore.Catalogo.Application.csproj"
+              },
+              "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Catalogo.Data/NerdStore.Catalogo.Data.csproj": {
+                "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Catalogo.Data/NerdStore.Catalogo.Data.csproj"
+              },
+              "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Catalogo.Domain/NerdStore.Catalogo.Domain.csproj": {
+                "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Catalogo.Domain/NerdStore.Catalogo.Domain.csproj"
+              },
+              "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Core/NerdStore.Core.csproj": {
+                "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Core/NerdStore.Core.csproj"
+              },
+              "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Pagamentos.AntiCorruption/NerdStore.Pagamentos.AntiCorruption.csproj": {
+                "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Pagamentos.AntiCorruption/NerdStore.Pagamentos.AntiCorruption.csproj"
+              },
+              "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Pagamentos.Data/NerdStore.Pagamentos.Data.csproj": {
+                "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Pagamentos.Data/NerdStore.Pagamentos.Data.csproj"
+              },
+              "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Vendas.Application/NerdStore.Vendas.Application.csproj": {
+                "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Vendas.Application/NerdStore.Vendas.Application.csproj"
+              },
+              "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Vendas.Data/NerdStore.Vendas.Data.csproj": {
+                "projectPath": "/Volumes/LaynDev/DEV/DotNetProjects/Personal/ArquitetoSoftware/NerdStore/src/NerdStore.Vendas.Data/NerdStore.Vendas.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
